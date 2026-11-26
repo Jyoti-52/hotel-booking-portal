@@ -1,0 +1,19 @@
+# Test configuration: in-memory H2 in MySQL compatibility mode. Flyway runs the same migrations as production.
+spring:
+  datasource:
+    url: jdbc:h2:mem:hoteltest;MODE=MySQL;DB_CLOSE_DELAY=-1;LOCK_TIMEOUT=15000
+    username: sa
+    password: ""
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+  flyway:
+    enabled: true
+  jackson:
+    default-property-inclusion: non_null
+
+app:
+  timezone: Asia/Kolkata
+  cors:
+    allowed-origins: http://localhost:4200

@@ -1,0 +1,31 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a routerLink="/" class="brand" aria-label="Stayfinder home">
+      <span class="brand-mark">S</span>
+      <span class="brand-copy">
+        <span class="brand-name">Stayfinder</span>
+        <span class="brand-tagline">STAYS, MADE MEMORABLE</span>
+      </span>
+    </a>
+    <nav aria-label="Main">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <span aria-hidden="true">⌕</span> Explore stays
+      </a>
+      <a routerLink="/manage" routerLinkActive="active">
+        <span aria-hidden="true">▣</span> Manage booking
+      </a>
+    </nav>
+    <span class="header-note"><span class="header-note-dot"></span> Your next getaway starts here</span>
+  </div>
+</header>
+
+<main class="container">
+  <router-outlet />
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span><strong>Stayfinder</strong> · Thoughtful stays across India</span>
+    <span>Demo hotel information and ratings · No payment is taken</span>
+  </div>
+</footer>

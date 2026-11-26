@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: hotel-booking
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/hotel_booking?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    username: ${DB_USERNAME:hotel_app}
+    # No default on purpose: credentials must come from the environment, never from the repository.
+    password: ${DB_PASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      # Flyway owns the schema (see src/main/resources/db/migration).
+      ddl-auto: none
+  flyway:
+    enabled: true
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: ${SERVER_PORT:8080}
+
+app:
+  # Used to decide what "today" means for the "check-in cannot be in the past" rule.
+  timezone: ${APP_TIMEZONE:Asia/Kolkata}
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:4200}

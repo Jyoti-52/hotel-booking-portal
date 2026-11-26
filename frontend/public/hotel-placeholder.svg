@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9E8E2"/>
+      <stop offset="1" stop-color="#F5E9D7"/>
+    </linearGradient>
+    <linearGradient id="building" x1="385" y1="270" x2="775" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF8F1"/>
+      <stop offset="1" stop-color="#E9D8BD"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v800H0z"/>
+  <circle cx="934" cy="170" r="77" fill="#F5D79E"/>
+  <path fill="#8BA99B" d="M0 503c150-91 278-107 422-31 137 73 255 76 391 18 153-66 251-56 387 11v299H0V503Z"/>
+  <path fill="#6F9183" d="M0 605c154-67 280-66 425 1 152 70 274 79 432 21 146-54 251-54 343-14v187H0V605Z"/>
+  <path fill="url(#building)" d="M353 354h494v294H353z"/>
+  <path fill="#0E6260" d="m321 356 278-158 279 158H321Z"/>
+  <path fill="#F5F0E7" d="m365 348 234-133 235 133H365Z"/>
+  <path fill="#D9C09A" d="M542 483h108v165H542z"/>
+  <path fill="#B4D2CC" d="M390 408h92v91h-92zm326 0h92v91h-92z"/>
+  <path fill="#FBF8F1" d="M435 435h12v38h-12zm326 0h12v38h-12z"/>
+  <path stroke="#FBF8F1" stroke-width="8" d="M390 454h92m234 0h92"/>
+  <text x="600" y="730" fill="#214F4B" font-family="Arial, sans-serif" font-size="32" text-anchor="middle">
+    A lovely stay awaits
+  </text>
+</svg>
