@@ -103,4 +103,4 @@ Add your screenshots or screen recording of the main flow to `docs/screenshots/`
 
 ## AI assistance disclosure
 
-I used an AI assistant (Claude by Anthropic) to help scaffold and write significant parts of this project, including the backend, the Angular frontend, the tests and the documentation. I reviewed the code, and I can explain the design and the code in the interview. _Edit this paragraph so it accurately reflects how you used the assistant and what you changed yourself._
+I used an AI assistant (Claude by Anthropic) to help scaffold and write significant parts of this project, including the backend, the Angular frontend, the tests and the documentation. I reviewed the code, and I can explain the design and the code in the interview. 
